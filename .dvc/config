@@ -1,5 +1,5 @@
 [core]
-    remote = dvc_remote
+    remote = remote
 ['remote "storage"']
     url = gdrive://1D04oMxGNNuJ0PbBs0C5uS3RT68R0kM3f
 ['remote "storage0"']
@@ -8,3 +8,5 @@
     url = s3://ml-flow01/data-dvc/
 ['remote "dvc_remote"']
     url = s3://mybucket/dvcstore
+['remote "remote"']
+    url = s3://ml-flow01/data-dvc/
